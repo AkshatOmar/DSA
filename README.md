@@ -15,4 +15,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/AkshatOmar/DSA/tree/master/0036-valid-sudoku) |
+## String
+|  |
+| ------- |
+| [0008-string-to-integer-atoi](https://github.com/AkshatOmar/DSA/tree/master/0008-string-to-integer-atoi) |
 <!---LeetCode Topics End-->
