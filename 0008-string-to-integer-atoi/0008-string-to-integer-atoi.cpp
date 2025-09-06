@@ -1,22 +1,23 @@
 class Solution {
 public:
+    int helper(string &s, int index, int sign, long numSoFar) {
+        if(index>= s.size() || !isdigit(s[index])) {
+            return numSoFar;
+        }
+        int digit = s[index] - '0';
+        long newNum = numSoFar*10 + digit;
+        if(sign == 1 && newNum>INT_MAX) return INT_MAX;
+        if(sign == -1 && -newNum<INT_MIN) return INT_MIN;
+        return helper(s,index+1, sign, newNum);
+    }
     int myAtoi(string s) {
-        long num = 0;
-        int i = 0, n = s.size();
-        int sign = 1;
-        while (i < n && s[i] == ' ') i++;
-        if (i < n && (s[i] == '+' || s[i] == '-')) {
+        int num = 0,i =0,sign = 1;
+        while(i<s.size() && s[i] == ' ') i++;
+        if(i< s.size() && (s[i] == '+' || s[i] == '-')){
             sign = (s[i] == '-') ? -1 : 1;
             i++;
         }
-        while (i < n && isdigit(s[i])) {
-            num = num * 10 + (s[i] - '0');
-            if (sign == 1 && num > INT_MAX) return INT_MAX;
-            if (sign == -1 && -num < INT_MIN) return INT_MIN;
-
-            i++;
-        }
-
-        return (int)(sign * num);
+        long result = helper(s,i,sign, num);
+        return(int)(sign*result) ;
     }
 };
