@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/AkshatOmar/DSA/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/AkshatOmar/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
+| [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 ## Math
 |  |
@@ -109,4 +110,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
+## Two Pointers
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 <!---LeetCode Topics End-->
