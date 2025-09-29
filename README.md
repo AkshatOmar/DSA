@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/AkshatOmar/DSA/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/AkshatOmar/DSA/tree/master/0022-generate-parentheses) |
+| [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/AkshatOmar/DSA/tree/master/0120-triangle) |
 | [0131-palindrome-partitioning](https://github.com/AkshatOmar/DSA/tree/master/0131-palindrome-partitioning) |
@@ -140,4 +142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
