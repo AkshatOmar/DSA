@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/AkshatOmar/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
+| [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
 | [2050-count-good-numbers](https://github.com/AkshatOmar/DSA/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
@@ -152,4 +153,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
