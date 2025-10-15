@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/AkshatOmar/DSA/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/AkshatOmar/DSA/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/AkshatOmar/DSA/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/AkshatOmar/DSA/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/AkshatOmar/DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
@@ -185,4 +187,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
