@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/AkshatOmar/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
 | [2050-count-good-numbers](https://github.com/AkshatOmar/DSA/tree/master/2050-count-good-numbers) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/AkshatOmar/DSA/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Recursion
 |  |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/AkshatOmar/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/AkshatOmar/DSA/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Depth-First Search
 |  |
 | ------- |
