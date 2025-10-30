@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/AkshatOmar/DSA/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/AkshatOmar/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/AkshatOmar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Backtracking
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/AkshatOmar/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/AkshatOmar/DSA/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Depth-First Search
 |  |
@@ -162,10 +165,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/AkshatOmar/DSA/tree/master/0141-linked-list-cycle) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Search
 |  |
 | ------- |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Greedy
 |  |
@@ -223,4 +228,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+## Ordered Set
+|  |
+| ------- |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Bitmask
+|  |
+| ------- |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
