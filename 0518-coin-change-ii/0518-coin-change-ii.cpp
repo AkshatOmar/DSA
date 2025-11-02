@@ -2,13 +2,24 @@ class Solution {
 public:
     int change(int amount, vector<int>& coins) {
         int n = coins.size();
-        vector<unsigned int>dp(amount+1,0);
-        dp[0] = 1;
-        for(int idx = 0;idx<n;idx++) {
-            for(int T = coins[idx];T<=amount;T++) {
-                dp[T] += dp[T-coins[idx]];
-            }
+        vector<unsigned int>prev(amount+1,0);
+        vector<unsigned int>curr(amount+1,0);
+        for(int T = 0;T<=amount;T++) {  
+            if(T%coins[0] == 0)prev[T] = 1;
+            else prev[T] = 0;
         }
-        return (int)dp[amount];
+        for(int idx = 1;idx<n;idx++) {
+            for(int T = 0;T<=amount;T++) {
+                unsigned int nonpick = prev[T];
+                unsigned int pick =  0;
+                if(coins[idx] <= T) {
+                    pick =curr[T-coins[idx]];
+                }
+                curr[T] = pick+nonpick;
+                
+            }
+            prev = curr;
+        }
+        return (int)prev[amount];
     }
 };
