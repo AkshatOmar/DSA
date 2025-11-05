@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
+| [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1250-longest-common-subsequence) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/AkshatOmar/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/AkshatOmar/DSA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/AkshatOmar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/AkshatOmar/DSA/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/AkshatOmar/DSA/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1250-longest-common-subsequence) |
