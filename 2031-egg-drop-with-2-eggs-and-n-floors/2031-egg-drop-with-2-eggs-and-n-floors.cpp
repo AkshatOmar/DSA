@@ -1,15 +1,15 @@
 class Solution {
 public:
-    int helper(int eggs, int floor,vector<vector<int>>&dp) {
-        if(floor == 0 || floor == 1) return floor;
-        if(eggs == 1) return floor;
-        if(dp[eggs][floor] != -1) return dp[eggs][floor];
+    int helper(int e, int f,vector<vector<int>>&dp) {
+        if(f == 0 || f == 1) return f;
+        if(e == 1) return f;
+        if(dp[e][f] != -1) return dp[e][f];
         int mini = 1e9;
-        for(int k = 1;k<=floor;k++) {
-            int temp = 1+ max(helper(eggs-1,k-1,dp),helper(eggs,floor-k,dp));
+        for(int k = 1;k<=f;k++) {
+            int temp = 1+max(helper(e-1,k-1,dp),helper(e,f-k,dp));
             mini = min(temp,mini);
         }
-        return dp[eggs][floor] = mini;
+        return dp[e][f] = mini;
     }
     int twoEggDrop(int n) {
         vector<vector<int>>dp(3,vector<int>(n+1,-1));
