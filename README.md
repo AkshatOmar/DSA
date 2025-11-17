@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/AkshatOmar/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/AkshatOmar/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/AkshatOmar/DSA/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/AkshatOmar/DSA/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/AkshatOmar/DSA/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/AkshatOmar/DSA/tree/master/0044-wildcard-matching) |
+| [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/AkshatOmar/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
@@ -328,4 +330,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0145-binary-tree-postorder-traversal) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
