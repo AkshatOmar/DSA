@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/AkshatOmar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/AkshatOmar/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
