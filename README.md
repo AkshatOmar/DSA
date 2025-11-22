@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/AkshatOmar/DSA/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/AkshatOmar/DSA/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0403-frog-jump](https://github.com/AkshatOmar/DSA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/AkshatOmar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/AkshatOmar/DSA/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/AkshatOmar/DSA/tree/master/0141-linked-list-cycle) |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/AkshatOmar/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/AkshatOmar/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/AkshatOmar/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Tree
@@ -356,4 +360,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
