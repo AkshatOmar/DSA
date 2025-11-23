@@ -13,34 +13,31 @@ class Solution {
 public:
     void helper(TreeNode* root, vector<vector<int>>&res) {
         if(root == NULL) return;
-        queue<TreeNode*>q;
-        q.push(root);
-        int cnt = 0;
-        while(!q.empty()) {
+        deque<TreeNode*>dq;
+        dq.push_back(root);
+        bool reverse = false;
+        while(!dq.empty()) {
             vector<int>lvl;
-            int size = q.size();
-            if(cnt%2 == 0) {
-                for(int i = 0;i<size;i++) {
-                    TreeNode* node = q.front();
-                    q.pop();
+            int size = dq.size();
+           
+            for(int i = 0;i<size;i++) {
+                if(reverse == false) {
+                    TreeNode* node = dq.front();
+                    dq.pop_front();
                     lvl.push_back(node->val);
-                    if(node->left) q.push(node->left);
-                    if(node->right) q.push(node->right);
+                    if(node->left) dq.push_back(node->left);
+                    if(node->right) dq.push_back(node->right);
+                }
+                else{
+                    TreeNode* node = dq.back();
+                    dq.pop_back();
+                    lvl.push_back(node->val);
+                    if(node->right) dq.push_front(node->right);
+                    if(node->left) dq.push_front(node->left);
                 }
             }
-            else{
-                for(int i = 0;i<size;i++) {
-                    TreeNode* node = q.front();
-                    q.pop();
-                    lvl.push_back(node->val);
-                    if(node->left) q.push(node->left);
-                    if(node->right) q.push(node->right);
-                }
-                reverse(lvl.begin(),lvl.end());
-            }
-            cnt++;
             res.push_back(lvl);
-            
+            reverse = !reverse;
         }
     }
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
