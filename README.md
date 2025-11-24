@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/AkshatOmar/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/AkshatOmar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/AkshatOmar/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/AkshatOmar/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/AkshatOmar/DSA/tree/master/3676-smallest-number-with-all-set-bits) |
