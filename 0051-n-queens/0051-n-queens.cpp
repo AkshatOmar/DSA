@@ -1,42 +1,37 @@
 class Solution {
 public:
-    bool isValid(vector<string>&board, int row,int col,int n) {
-        if(row<0 ||col<0||row>=n||col>=n)return false;
-        // check column
-        for(int j =0;j<n;j++) {
-            if(board[row][j] == 'Q') return false;
-        }
-        //check row
-        for(int i = 0;i<n;i++) {
+    bool isSafe(int row, int col,int n, vector<string>&board) {
+        for(int i =0;i<n;i++) {
             if(board[i][col] == 'Q') return false;
         }
-        // left diagonal
-        for(int i = row, j = col;i>=0&&j>=0;i--,j--) {
+        for(int j = 0;j<n;j++) {
+            if(board[row][j] == 'Q') return false;
+        }
+        for(int i = row-1, j = col-1;i>=0&&j>=0;i--,j--) {
             if(board[i][j] == 'Q') return false;
         }
-        // right Diagonal
-        for(int i = row,j = col;i>=0&&j<n;i--,j++) {
+        for(int i = row-1, j = col+1;i>=0&&j<n;i--,j++) {
             if(board[i][j] == 'Q') return false;
         }
         return true;
     }
-    void helper(vector<string>&board,vector<vector<string>>&res, int row,int n) {
+    void helper(vector<vector<string>>&ans, vector<string>&board,int n, int row) {
         if(row == n) {
-            res.push_back(board);
+            ans.push_back(board);
             return;
         }
         for(int col = 0;col<n;col++) {
-            if(isValid(board,row,col,n)) { 
+            if(isSafe(row,col,n,board)) {
                 board[row][col] = 'Q';
-                helper(board,res,row+1,n);
+                helper(ans,board,n,row+1);
                 board[row][col] = '.';
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>>res;
+        vector<vector<string>>ans;
         vector<string>board(n,string(n,'.'));
-        helper(board,res,0,n);
-        return res;
+        helper(ans,board,n,0);
+        return ans;
     }
 };
