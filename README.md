@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/AkshatOmar/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/AkshatOmar/DSA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/AkshatOmar/DSA/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/AkshatOmar/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/AkshatOmar/DSA/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/AkshatOmar/DSA/tree/master/0079-word-search) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
 | [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
