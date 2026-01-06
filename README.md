@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Trie
 |  |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0112-path-sum) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Two Pointers
 |  |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
@@ -412,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Divide and Conquer
 |  |
