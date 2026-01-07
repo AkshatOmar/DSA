@@ -3,7 +3,7 @@ public:
     bool isSafe(int row, int col,int n, vector<string>&board) {
         for(int i =0;i<n;i++) {
             if(board[i][col] == 'Q') return false;
-        }
+        } 
         for(int j = 0;j<n;j++) {
             if(board[row][j] == 'Q') return false;
         }
