@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/AkshatOmar/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1390-four-divisors](https://github.com/AkshatOmar/DSA/tree/master/1390-four-divisors) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1463-cherry-pickup-ii) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/AkshatOmar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1250-longest-common-subsequence) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/AkshatOmar/DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1463-cherry-pickup-ii) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/AkshatOmar/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
