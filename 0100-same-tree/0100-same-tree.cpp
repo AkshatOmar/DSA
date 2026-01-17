@@ -11,28 +11,11 @@
  */
 class Solution {
 public:
-    bool helper(TreeNode* p, TreeNode* q) {
-        queue<TreeNode*>q1;
-        queue<TreeNode*>q2;
-        q1.push(p);
-        q2.push(q);
-        while(!q1.empty() && !q2.empty()) {
-            TreeNode* node1 = q1.front();
-            TreeNode* node2 = q2.front();
-            q1.pop();
-            q2.pop();
-            if(node1 == NULL && node2 == NULL) continue;
-            if(node1 == NULL || node2 == NULL) return false;
-            if(node1->val!=node2->val) return false;
-            // no need to check for if left/right exist or not bcoz to compare both tree, null should also be pushed to queue
-            q1.push(node1->left);
-            q1.push(node1->right);
-            q2.push(node2->left);
-            q2.push(node2->right);
-        }
-        return q1.empty() && q2.empty();
-    }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return helper(p,q);
+        if(p == NULL && q==NULL)return true;
+        if(p == NULL || q==NULL || p->val != q->val)return false;
+        bool left = isSameTree(p->left,q->left);
+        bool right = isSameTree(p->right,q->right);
+        return left&&right;
     }
 };
