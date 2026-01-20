@@ -12,44 +12,28 @@
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        //declare map -> level,vertical,multiset to store node at each level
-        map<int, map<int,multiset<int>>>nodes;
-        //declare queue to store node, level, vrtical
-        queue<pair<TreeNode*,pair<int, int>>>todo;
-        //push root with its x,y coordinates;
-        todo.push({root,{0,0}});
-        while(!todo.empty()) {
-            auto p = todo.front();
-            //pop front
-            todo.pop();
-            //extract node
-            TreeNode* temp = p.first;
-            //Extract x and y axis;
-            int x = p.second.first;
-            int y = p.second.second;
-            //insert node into map by vertical and level
-            nodes[x][y].insert(temp->val);
-            //if left exists, push with coordinates
-            if(temp->left) {
-                todo.push({temp->left,{x-1,y+1}});
-            }
-            //if right exists, push with coordinates
-
-            if(temp->right) {
-                todo.push({temp->right,{x+1,y+1}});
-            }
-        }
         vector<vector<int>>ans;
-        //iterate through vertical in map
-        for(auto p : nodes) {
-            vector<int>col;
-            //collect all nodes in order of levels.
-            for(auto q : p.second) {
-                col.insert(col.end(),q.second.begin(),q.second.end());
-
+        map<int,map<int,multiset<int>>>mp;
+        queue<pair<TreeNode*,pair<int,int>>>q;
+        q.push({root,{0,0}});
+        while(!q.empty()) {
+            auto it = q.front();
+            q.pop();
+            TreeNode* node =  it.first;
+            int col = it.second.first;
+            int row = it.second.second;
+            mp[col][row].insert(node->val);
+            if(node->left) q.push({node->left,{col-1,row+1}});
+            if(node->right)q.push({node->right,{col+1,row+1}});
+        }
+        for(auto &colPair : mp) {
+            vector<int>temp;
+            for(auto &rowPair : colPair.second) {
+                for(int val : rowPair.second) {
+                    temp.push_back(val);
+                }
             }
-            //push column in result;
-            ans.push_back(col);
+            ans.push_back(temp);
         }
         return ans;
     }
