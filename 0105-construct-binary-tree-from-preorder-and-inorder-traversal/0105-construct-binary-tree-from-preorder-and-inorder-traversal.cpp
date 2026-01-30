@@ -11,22 +11,22 @@
  */
 class Solution {
 public:
-    TreeNode* tree(vector<int>&preorder,vector<int>&inorder,int preStart,int preEnd,int inStart,int inEnd,map<int,int>&inMap) {
-        if(inStart>inEnd || preStart>preEnd) return NULL;
-        TreeNode* root = new TreeNode(preorder[preStart]);
-        int inRoot = inMap[root->val];
-        int numsLeft = inRoot-inStart;
-        root->left = tree(preorder,inorder,preStart+1,preStart+numsLeft,inStart,inRoot-1,inMap);
-        root->right = tree(preorder,inorder,preStart+numsLeft+1,preEnd,inRoot+1,inEnd,inMap);
+
+    int idx = 0;
+    TreeNode* treeBuilder(vector<int>& preorder, vector<int>& inorder,int inStart,int inEnd,unordered_map<int,int>&inMap) {
+        if(inStart>inEnd)return NULL;
+        int rootval = preorder[idx++];
+        TreeNode* root = new TreeNode(rootval);
+        int inidx = inMap[rootval];
+        root->left = treeBuilder(preorder,inorder,inStart,inidx-1,inMap);
+        root->right = treeBuilder(preorder,inorder,inidx+1,inEnd,inMap);
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int>inMap;
+        unordered_map<int,int>inMap;
         for(int i = 0;i<inorder.size();i++) {
             inMap[inorder[i]] = i;
         }
-        TreeNode* root = tree(preorder,inorder,0,preorder.size()-1,0,inorder.size()-1,inMap);
-        return root;
+        return treeBuilder(preorder,inorder,0,inorder.size()-1,inMap);
     }
-
 };
