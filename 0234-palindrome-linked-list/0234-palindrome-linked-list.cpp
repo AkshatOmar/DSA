@@ -11,24 +11,31 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        stack<int>st;
         ListNode* slow = head;
         ListNode* fast = head;
         while(fast != NULL && fast->next != NULL) {
-            st.push(slow->val);
             slow = slow->next;
             fast = fast->next->next;
         }
         if(fast != NULL) {
-            slow = slow->next;
+            slow = slow ->next;
         }
-        while(!st.empty() && slow != NULL) {
-            int value = st.top();
-            st.pop();
-            if(value != slow->val) {
-                return false;
-            }
-            slow = slow->next;
+        
+        ListNode* prev = NULL;
+        ListNode* curr = slow;
+        ListNode* nxt = NULL;
+        while(curr != NULL) {
+            nxt = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nxt;
+        }
+        ListNode* start = head;
+        ListNode* end = prev;
+        while(end) {
+            if(start->val != end->val) return false;
+            start = start->next;
+            end = end->next;
         }
         return true;
     }
