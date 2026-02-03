@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/AkshatOmar/DSA/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/AkshatOmar/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3637-trionic-array-i](https://github.com/AkshatOmar/DSA/tree/master/3637-trionic-array-i) |
 ## Hash Table
 |  |
 | ------- |
