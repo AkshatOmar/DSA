@@ -12,12 +12,25 @@
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
-        if(root == NULL) return NULL;
-        TreeNode* temp = root->left;
-        root->left = root->right;
-        root->right = temp;
-        invertTree(root->left);
-        invertTree(root->right);
+        if(!root) return NULL;
+        stack<TreeNode*>st;
+        st.push(root);
+        while(!st.empty()) {
+            int n = st.size();
+            for(int i = 0;i<n;i++) {
+                TreeNode* node = st.top();
+                st.pop();
+                TreeNode* temp = node->left;
+                node->left = node->right;
+                node->right = temp;
+                if(node->left) {
+                    st.push(node->left);
+                }
+                if(node->right){
+                    st.push(node->right);
+                }
+            }
+        }
         return root;
     }
 };
