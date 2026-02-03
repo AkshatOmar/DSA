@@ -11,22 +11,23 @@
  */
 class Solution {
 public:
-
-    int idx = 0;
-    TreeNode* treeBuilder(vector<int>& preorder, vector<int>& inorder,int inStart,int inEnd,unordered_map<int,int>&inMap) {
-        if(inStart>inEnd)return NULL;
-        int rootval = preorder[idx++];
+    TreeNode* treeBuilder(vector<int>&preorder,vector<int>&inorder, int inStart,int inEnd,int &preidx,unordered_map<int,int>&inMap) {
+        if(inStart>inEnd) return NULL;
+        int rootval = preorder[preidx++];
         TreeNode* root = new TreeNode(rootval);
         int inidx = inMap[rootval];
-        root->left = treeBuilder(preorder,inorder,inStart,inidx-1,inMap);
-        root->right = treeBuilder(preorder,inorder,inidx+1,inEnd,inMap);
+        root ->left = treeBuilder(preorder,inorder,inStart,inidx-1,preidx,inMap);
+        root->right = treeBuilder(preorder,inorder,inidx+1,inEnd,preidx,inMap);
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+
         unordered_map<int,int>inMap;
         for(int i = 0;i<inorder.size();i++) {
             inMap[inorder[i]] = i;
         }
-        return treeBuilder(preorder,inorder,0,inorder.size()-1,inMap);
+        int preidx = 0;
+        TreeNode* root = treeBuilder(preorder,inorder,0,inorder.size()-1,preidx,inMap);
+        return root;
     }
 };
