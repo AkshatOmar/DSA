@@ -17,7 +17,6 @@ public:
             if(targetSum == root->val) return true;
             else return false;
         }
-        cout <<targetSum<<" ";
         return hasPathSum(root->left,targetSum-root->val) || hasPathSum(root->right,targetSum-root->val);
     }
 };
