@@ -11,14 +11,13 @@
  */
 class Solution {
 public:
-    bool helper(TreeNode *root, int targetSum) {
-        if(root == NULL) return false;
-        if(root->left == NULL && root->right == NULL) return root->val == targetSum;
-        bool left = helper(root->left, targetSum- root->val);
-        bool right = helper(root->right, targetSum - root->val);
-        return left|right;
-    }
     bool hasPathSum(TreeNode* root, int targetSum) {
-        return helper(root,targetSum);
+        if(root == NULL) return false;
+        if(root->left==NULL && root->right == NULL) {
+            if(targetSum == root->val) return true;
+            else return false;
+        }
+        cout <<targetSum<<" ";
+        return hasPathSum(root->left,targetSum-root->val) || hasPathSum(root->right,targetSum-root->val);
     }
 };
