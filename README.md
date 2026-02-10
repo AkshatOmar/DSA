@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/AkshatOmar/DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AkshatOmar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/AkshatOmar/DSA/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/AkshatOmar/DSA/tree/master/0198-house-robber) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/AkshatOmar/DSA/tree/master/0079-word-search) |
+| [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/AkshatOmar/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/AkshatOmar/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/AkshatOmar/DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/AkshatOmar/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/AkshatOmar/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/AkshatOmar/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/AkshatOmar/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0226-invert-binary-tree) |
@@ -571,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 ## Graph Theory
 |  |
