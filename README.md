@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/AkshatOmar/DSA/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/AkshatOmar/DSA/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/AkshatOmar/DSA/tree/master/0717-1-bit-and-2-bit-characters) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/AkshatOmar/DSA/tree/master/0079-word-search) |
+| [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/AkshatOmar/DSA/tree/master/0994-rotting-oranges) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/AkshatOmar/DSA/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/AkshatOmar/DSA/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0967-minimum-falling-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -318,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
