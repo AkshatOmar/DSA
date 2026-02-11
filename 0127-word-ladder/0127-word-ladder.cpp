@@ -19,7 +19,6 @@ public:
                 for(char ch = 'a';ch<='z';ch++) {
                     word[i] = ch;
                     if(st.find(word) != st.end()) {
-                        
                         q.push({word,steps+1});
                     }
                 }
