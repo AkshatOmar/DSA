@@ -1,35 +1,32 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        int v = wordList.size();
-        //using set for O(1) lookup
         unordered_set<string>st;
-        for(auto &word : wordList) {
-            st.insert(word);
+        for(string s : wordList) {
+            st.insert(s);
         }
+        //make a queue and store string and steps
         queue<pair<string,int>>q;
         q.push({beginWord,1});
-        while(!q.empty()) {
-            string s = q.front().first;
-            int step = q.front().second;
+        while(!q.empty()) { 
+            string word = q.front().first;
+            int steps = q.front().second;
             q.pop();
-            st.erase(s);
-            if(s == endWord) {
-                return step;
-            }
-            for(int i =0;i<s.size();i++) {
-                char word = s[i];
+            if(word == endWord) return steps;
+            st.erase(word);
+            for(int i = 0;i<word.size();i++) {
+                char og = word[i];
                 for(char ch = 'a';ch<='z';ch++) {
-                    s[i] = ch;
-                    if(st.find(s) != st.end()) {
-                        cout<<s<<endl;
-                        st.erase(s);
-                        q.push({s,step+1});
+                    word[i] = ch;
+                    if(st.find(word) != st.end()) {
+                        
+                        q.push({word,steps+1});
                     }
                 }
-                s[i] = word;
+                //cout<<word<<endl;
+                word[i]=og;
             }
         }
         return 0;
-    } 
+    }
 };
