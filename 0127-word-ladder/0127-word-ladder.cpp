@@ -13,7 +13,7 @@ public:
             int steps = q.front().second;
             q.pop();
             if(word == endWord) return steps;
-            st.erase(word);
+            //st.erase(word);
             for(int i = 0;i<word.size();i++) {
                 char og = word[i];
                 for(char ch = 'a';ch<='z';ch++) {
