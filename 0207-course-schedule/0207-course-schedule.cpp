@@ -1,26 +1,32 @@
 class Solution {
 public:
-    bool dfs(int numCourses,vector<vector<int>>&adj,vector<int>&vis,int node) {
-        if(vis[node] == 1)return true;
-        if(vis[node] == 2) return false;
+    bool dfs(int node, int numCourses, vector<vector<int>>&graph,vector<int>&vis,vector<int>&path) {
         vis[node] = 1;
-        for(int adjnode:adj[node]) {
-            if(dfs(numCourses,adj,vis,adjnode))return true;
+        path[node] = 1;
+        for(auto &adjNode: graph[node]) {
+            if(vis[adjNode]==0) { 
+                if(dfs(adjNode,numCourses,graph,vis,path)==true) return true;
+            }
+            else if(path[adjNode] == 1 && vis[adjNode] == 1) {
+                return true;
+            }
+            
         }
-        vis[node] = 2;
+        path[node] = 0;
         return false;
     }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        //Build graph first;
-        vector<vector<int>>adj(numCourses);
-        for(auto &p : prerequisites) {
-            adj[p[1]].push_back(p[0]);
+        vector<vector<int>>graph(numCourses);
+        for(int i = 0;i<prerequisites.size();i++) {
+            int u = prerequisites[i][1];
+            int v = prerequisites[i][0];
+            graph[u].push_back(v);
         }
-        //Now simply detect cucle in graph
         vector<int>vis(numCourses,0);
+        vector<int>path(numCourses,0);
         for(int i = 0;i<numCourses;i++) {
             if(vis[i] == 0) {
-                if(dfs(numCourses,adj,vis,i)) return false;
+                if(dfs(i,numCourses,graph,vis,path))return false;
             }
         }
         return true;
