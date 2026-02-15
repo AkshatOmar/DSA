@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/AkshatOmar/DSA/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/AkshatOmar/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0044-wildcard-matching](https://github.com/AkshatOmar/DSA/tree/master/0044-wildcard-matching) |
+| [0067-add-binary](https://github.com/AkshatOmar/DSA/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/AkshatOmar/DSA/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/AkshatOmar/DSA/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/AkshatOmar/DSA/tree/master/0115-distinct-subsequences) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/AkshatOmar/DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/AkshatOmar/DSA/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/AkshatOmar/DSA/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/AkshatOmar/DSA/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/AkshatOmar/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/AkshatOmar/DSA/tree/master/0222-count-complete-tree-nodes) |
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/AkshatOmar/DSA/tree/master/0067-add-binary) |
 | [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
