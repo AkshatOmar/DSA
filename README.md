@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1463-cherry-pickup-ii) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/AkshatOmar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/AkshatOmar/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/AkshatOmar/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1463-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1463-cherry-pickup-ii) |
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/AkshatOmar/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 ## String
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/AkshatOmar/DSA/tree/master/1020-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Trie
 |  |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/AkshatOmar/DSA/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/AkshatOmar/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Two Pointers
 |  |
@@ -378,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/AkshatOmar/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Greedy
@@ -483,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/AkshatOmar/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/AkshatOmar/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Tree
@@ -604,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/AkshatOmar/DSA/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/AkshatOmar/DSA/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
