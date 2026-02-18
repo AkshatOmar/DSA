@@ -10,27 +10,34 @@ public:
             int wt = it[2];
             graph[u].push_back({v,wt});
         }
-        // {stops,{node,wt}}
-        queue<pair<int,pair<int,int>>>q;
-        q.push({0,{src,0}});
+        queue<pair<int,int>>q;
+        q.push({0,src});
         vector<int>dist(n,INT_MAX);
+        int stops = 0;
         dist[src] = 0;
-        while(!q.empty()) {
-            int stops = q.front().first;
-            int node = q.front().second.first;
-            int cost = q.front().second.second;
-            q.pop();
-            if(stops>k) continue;
-            for(auto it : graph[node]) {
-                int adjNode = it.first;
-                int wt = it.second;
-                if(wt + cost < dist[adjNode] && stops<=k) {
-                    dist[adjNode] = wt+cost;
-                    q.push({stops+1,{adjNode,dist[adjNode]}});
+        while(!q.empty() && stops<=k) {
+            
+            int size = q.size();
+            vector<int>temp = dist;
+            while(size--) {
+                int cost = q.front().first;
+                int node = q.front().second;
+                int size = q.size();
+                q.pop();
+                for(auto it : graph[node]) {
+                    int adj = it.first;
+                    int wt = it.second;
+
+                    if(wt+cost<temp[adj]) {
+                        temp[adj] = wt+cost;
+                        q.push({cost+wt,adj});
+                    }
+
                 }
             }
-        }
-        if(dist[dst]==INT_MAX) return -1;
-        return dist[dst];
+            dist=temp;
+            stops++;
+        } 
+        return dist[dst] == INT_MAX ? -1 : dist[dst];
     }
 };
