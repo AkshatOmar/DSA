@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/AkshatOmar/DSA/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/AkshatOmar/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0693-binary-number-with-alternating-bits](https://github.com/AkshatOmar/DSA/tree/master/0693-binary-number-with-alternating-bits) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/AkshatOmar/DSA/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/AkshatOmar/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
