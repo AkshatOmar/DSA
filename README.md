@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/AkshatOmar/DSA/tree/master/0717-1-bit-and-2-bit-characters) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/AkshatOmar/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/AkshatOmar/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshatOmar/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AkshatOmar/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/AkshatOmar/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [1143-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/AkshatOmar/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1250-longest-common-subsequence) |
@@ -304,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AkshatOmar/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/AkshatOmar/DSA/tree/master/0785-is-graph-bipartite) |
@@ -361,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AkshatOmar/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/AkshatOmar/DSA/tree/master/0785-is-graph-bipartite) |
@@ -419,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1200-minimum-absolute-difference](https://github.com/AkshatOmar/DSA/tree/master/1200-minimum-absolute-difference) |
@@ -624,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/AkshatOmar/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/AkshatOmar/DSA/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AkshatOmar/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/AkshatOmar/DSA/tree/master/1020-number-of-enclaves) |
