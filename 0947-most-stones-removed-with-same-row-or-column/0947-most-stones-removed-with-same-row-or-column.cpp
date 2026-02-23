@@ -33,19 +33,24 @@ class Solution {
 public:
     int removeStones(vector<vector<int>>& stones) {
         int n = stones.size();
-        DSU ds(n);
-        for(int i = 0;i<n-1;i++) {
-            for(int j = i+1;j<n;j++) {
-                if(stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1]) {
-                    ds.unite(i,j);
-                }
-            }
+        int maxRow = 0,maxCol = 0;
+        for(auto it : stones) {
+            maxRow = max(maxRow,it[0]);
+            maxCol = max(maxCol,it[1]);
+        }
+
+        DSU ds(maxRow + maxCol+2);
+        unordered_set<int>usedNodes;
+        for(auto &s : stones) {
+            int row  = s[0];
+            int col = s[1]+maxRow+1;
+            ds.unite(row,col);
+            usedNodes.insert(row);
+            usedNodes.insert(col);
         }
         int components = 0;
-        for(int i = 0;i<n;i++) {
-            if(ds.find(i) == i) {
-                components++;
-            }
+        for(auto nodes : usedNodes) {
+            if(ds.find(nodes) == nodes) components++;
         }
         return n - components;
     }
