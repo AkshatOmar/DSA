@@ -1,13 +1,5 @@
 class Solution {
 public:
-    bool isRepeating(unordered_map<char,int>&mp) {
-        for(auto it : mp) {
-            if(it.second > 1) {
-                return true;
-            }
-        }
-        return false;
-    }
     int lengthOfLongestSubstring(string s) {
         int n = s.size();
         int i = 0, j = 0;
@@ -17,7 +9,7 @@ public:
         while(j<n) {
             mp[s[j]]++;
 
-            while(isRepeating(mp)) {
+            while(mp[s[j]]>1) {
                 mp[s[i]]--;
                 i++;
             
