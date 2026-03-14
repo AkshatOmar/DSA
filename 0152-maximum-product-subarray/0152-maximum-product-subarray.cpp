@@ -11,9 +11,7 @@ public:
             if(prod == 0) {
                 prod = 1;
             }
-            if(nums[i] > maxProd) {
-                maxProd = nums[i];
-            }
+            
         }
         int maxLeft = INT_MIN;
         int leftProd = 1;
@@ -23,9 +21,7 @@ public:
             if(leftProd == 0) {
                 leftProd = 1;
             }
-            if(nums[i] > maxLeft) {
-                maxLeft = nums[i];
-            }
+           
         }
         return max(maxProd, maxLeft);
     }
