@@ -1,7 +1,11 @@
 # Write your MySQL query statement below
-SELECT c.customer_id
-FROM Customer c
-LEFT JOIN Product p
-ON p.product_key = c.product_key
-GROUP BY customer_id
-HAVING COUNT(DISTINCT p.product_key) = (SELECT COUNT(*) FROM Product);
+WITH Customer_details AS
+    (
+        SELECT customer_id,
+        COUNT(DISTINCT product_key) AS cnt
+        FROM Customer 
+        GROUP BY customer_id
+    ) 
+SELECT customer_id 
+FROM Customer_details
+WHERE  cnt = (SELECT COUNT(*) FROM Product);
