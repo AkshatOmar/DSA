@@ -648,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0175-combine-two-tables](https://github.com/AkshatOmar/DSA/tree/master/0175-combine-two-tables) |
 | [0178-rank-scores](https://github.com/AkshatOmar/DSA/tree/master/0178-rank-scores) |
+| [0180-consecutive-numbers](https://github.com/AkshatOmar/DSA/tree/master/0180-consecutive-numbers) |
 | [0185-department-top-three-salaries](https://github.com/AkshatOmar/DSA/tree/master/0185-department-top-three-salaries) |
 | [0197-rising-temperature](https://github.com/AkshatOmar/DSA/tree/master/0197-rising-temperature) |
 | [0262-trips-and-users](https://github.com/AkshatOmar/DSA/tree/master/0262-trips-and-users) |
