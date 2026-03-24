@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/AkshatOmar/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/AkshatOmar/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/AkshatOmar/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 ## String
 |  |
 | ------- |
@@ -533,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/AkshatOmar/DSA/tree/master/0238-product-of-array-except-self) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshatOmar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
