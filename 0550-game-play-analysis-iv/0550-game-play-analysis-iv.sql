@@ -1,17 +1,12 @@
 # Write your MySQL query statement below
-WITH Acitivity_details AS
+WITH Activity_details AS
 (
     SELECT * ,
     RANK()
-     OVER(partition BY player_id ORDER BY event_date) AS rnk
-    FROM Activity
-),
-Activity2 AS 
-(
-    SELECT *,
-    LEAD(event_date, 1)
+     OVER(partition BY player_id ORDER BY event_date) AS rnk,
+     LEAD(event_date, 1)
      OVER(PARTITION BY player_id ORDER BY event_date) AS next_date
-    FROM Acitivity_details
+    FROM Activity
 )
 
 SELECT ROUND(
@@ -20,6 +15,6 @@ SELECT ROUND(
     FROM Activity)
     ,2)
      AS fraction
-FROM Activity2
+FROM Activity_details
 WHERE rnk = 1
 ;
