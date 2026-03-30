@@ -668,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0595-big-countries](https://github.com/AkshatOmar/DSA/tree/master/0595-big-countries) |
 | [0596-classes-with-at-least-5-students](https://github.com/AkshatOmar/DSA/tree/master/0596-classes-with-at-least-5-students) |
 | [0601-human-traffic-of-stadium](https://github.com/AkshatOmar/DSA/tree/master/0601-human-traffic-of-stadium) |
+| [0619-biggest-single-number](https://github.com/AkshatOmar/DSA/tree/master/0619-biggest-single-number) |
 | [0620-not-boring-movies](https://github.com/AkshatOmar/DSA/tree/master/0620-not-boring-movies) |
 | [1045-customers-who-bought-all-products](https://github.com/AkshatOmar/DSA/tree/master/1045-customers-who-bought-all-products) |
 | [1068-product-sales-analysis-i](https://github.com/AkshatOmar/DSA/tree/master/1068-product-sales-analysis-i) |
