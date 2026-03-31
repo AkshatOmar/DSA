@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/AkshatOmar/DSA/tree/master/0152-maximum-product-subarray) |
+| [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/AkshatOmar/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/AkshatOmar/DSA/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/AkshatOmar/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshatOmar/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/AkshatOmar/DSA/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/AkshatOmar/DSA/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/AkshatOmar/DSA/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/AkshatOmar/DSA/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
@@ -639,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -647,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/AkshatOmar/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 ## Quickselect
