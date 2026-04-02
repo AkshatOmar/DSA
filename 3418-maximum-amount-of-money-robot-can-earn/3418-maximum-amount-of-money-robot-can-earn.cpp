@@ -15,30 +15,17 @@ public:
         if(dp[i][j][k] != INT_MIN) return dp[i][j][k];
 
         int left = -1e7;
-        if(coins[i][j] < 0) {
-            if(k<2) {
-                left = max(helper(i,j-1,coins,k+1,dp), coins[i][j] + helper(i,j-1,coins,k,dp));
-            }
-            else {
-                left = coins[i][j] + helper(i,j-1,coins,k,dp);
-            }
-        }
-        else {
-            left = coins[i][j] + helper(i,j-1,coins,k,dp);
-        }
-
         int up = -1e7;
-        if(coins[i][j] < 0) {
-            if(k<2) {
-                up = max(helper(i-1,j,coins,k+1,dp), coins[i][j] + helper(i-1,j,coins,k,dp));
-            }
-            else {
-                up = coins[i][j] + helper(i-1,j,coins,k,dp);
+        if(coins[i][j] < 0 ) {
+            if(k<2){
+                left = helper(i,j-1,coins,k+1,dp);
+                up = helper(i-1,j,coins,k+1,dp);
             }
         }
-        else {
-            up = coins[i][j] + helper(i-1,j,coins,k,dp);
-        }
+        // else {
+            left = max(left,coins[i][j] + helper(i,j-1,coins,k,dp));
+            up = max(up,coins[i][j] + helper(i-1,j,coins,k,dp));
+        // }
         
         return dp[i][j][k] = max(up,left);
     }
