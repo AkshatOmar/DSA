@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/AkshatOmar/DSA/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/AkshatOmar/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
 | [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -662,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/AkshatOmar/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 ## Quickselect
 |  |
