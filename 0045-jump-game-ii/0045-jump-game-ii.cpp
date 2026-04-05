@@ -2,17 +2,20 @@ class Solution {
 public:
     int jump(vector<int>& nums) {
         int n = nums.size();
-        vector<int>dp(n,0);
-        dp[n-1] = 0;
-        for(int i = n-2;i>=0;i--) {
-            int ans = 1e9;
+        int left = 0;
+        int right = 0;
+        int jumps = 0;
 
-            for(int j = 1;j<=nums[i] && j+i<n; j++) {
-                
-                ans = min(ans, 1+dp[i+j]);
+        while(right<n-1) {
+            int farthest = 0;
+            for(int  i = left;i<=right;i++) {
+                farthest = max(farthest,nums[i]+i);
             }
-            dp[i] = ans;
+            left = right+1;
+            right = farthest;
+            jumps++;
+
         }
-        return dp[0];
+        return jumps;
     }
 };
