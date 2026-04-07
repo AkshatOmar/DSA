@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/AkshatOmar/DSA/tree/master/0274-h-index) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0403-frog-jump](https://github.com/AkshatOmar/DSA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/AkshatOmar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/AkshatOmar/DSA/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/AkshatOmar/DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/AkshatOmar/DSA/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/AkshatOmar/DSA/tree/master/0146-lru-cache) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -785,4 +789,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/AkshatOmar/DSA/tree/master/1944-number-of-visible-people-in-a-queue) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
