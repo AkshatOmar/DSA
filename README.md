@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/AkshatOmar/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3637-trionic-array-i](https://github.com/AkshatOmar/DSA/tree/master/3637-trionic-array-i) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/AkshatOmar/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -521,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2288-count-operations-to-obtain-zero](https://github.com/AkshatOmar/DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/AkshatOmar/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/AkshatOmar/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Linked List
 |  |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/AkshatOmar/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/AkshatOmar/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## Bucket Sort
 |  |
 | ------- |
