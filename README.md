@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/AkshatOmar/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/AkshatOmar/DSA/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/AkshatOmar/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/AkshatOmar/DSA/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/AkshatOmar/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AkshatOmar/DSA/tree/master/0090-subsets-ii) |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 | [0222-count-complete-tree-nodes](https://github.com/AkshatOmar/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0693-binary-number-with-alternating-bits](https://github.com/AkshatOmar/DSA/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/AkshatOmar/DSA/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -554,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AkshatOmar/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshatOmar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/AkshatOmar/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -808,4 +812,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
+## Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
+## Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
