@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/AkshatOmar/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AkshatOmar/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/AkshatOmar/DSA/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/AkshatOmar/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AkshatOmar/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/AkshatOmar/DSA/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
