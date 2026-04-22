@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/AkshatOmar/DSA/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/AkshatOmar/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1200-minimum-absolute-difference](https://github.com/AkshatOmar/DSA/tree/master/1200-minimum-absolute-difference) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshatOmar/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/AkshatOmar/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1390-four-divisors](https://github.com/AkshatOmar/DSA/tree/master/1390-four-divisors) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/AkshatOmar/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshatOmar/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshatOmar/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1390-four-divisors](https://github.com/AkshatOmar/DSA/tree/master/1390-four-divisors) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/AkshatOmar/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
@@ -588,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/AkshatOmar/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshatOmar/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshatOmar/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshatOmar/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/AkshatOmar/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/AkshatOmar/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -611,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/AkshatOmar/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/AkshatOmar/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshatOmar/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AkshatOmar/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
