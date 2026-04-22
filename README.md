@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/AkshatOmar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
+| [0424-longest-repeating-character-replacement](https://github.com/AkshatOmar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/AkshatOmar/DSA/tree/master/0904-fruit-into-baskets) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/AkshatOmar/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
+| [0424-longest-repeating-character-replacement](https://github.com/AkshatOmar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/AkshatOmar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0657-robot-return-to-origin](https://github.com/AkshatOmar/DSA/tree/master/0657-robot-return-to-origin) |
@@ -577,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AkshatOmar/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
+| [0424-longest-repeating-character-replacement](https://github.com/AkshatOmar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/AkshatOmar/DSA/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/AkshatOmar/DSA/tree/master/1004-max-consecutive-ones-iii) |
