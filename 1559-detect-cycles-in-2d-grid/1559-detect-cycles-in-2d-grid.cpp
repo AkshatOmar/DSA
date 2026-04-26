@@ -9,12 +9,11 @@ public:
             int new_j = dir[1] + j;
             if(new_i >=0 && new_j >=0 && new_i < n && new_j < m) {
                 if(grid[i][j] == grid[new_i][new_j]) {
-                    
-                    if(!vis[new_i][new_j]) {
-                        if(dfs(grid,new_i,new_j,i,j,vis)) return true;
-                    }
-                    else if(vis[new_i][new_j] == true && new_i != pi || new_j != pj) {
+                    if(vis[new_i][new_j] == true && (new_i != pi || new_j != pj)) {
                         return true;
+                    }
+                    else if(!vis[new_i][new_j]) {
+                        if(dfs(grid,new_i,new_j,i,j,vis)) return true;
                     }
                 }
             }
