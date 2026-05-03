@@ -4,9 +4,12 @@ public:
         int n = s.size();
         int m = goal.size();
         if(n != m) return false;
-        for(int i = 0;i<n;i++) {
-            rotate(s.begin(),s.begin() +1,s.end());
-            if(s == goal) return true;
+        string doubleString = s+s;
+        int i = 0, j = n-1;
+        while(j<n+n) {
+            if(doubleString.substr(i,j-i+1) == goal) return true;
+            i++;
+            j++;
         }
         return false;
     }
