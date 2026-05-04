@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/AkshatOmar/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/AkshatOmar/DSA/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/AkshatOmar/DSA/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/AkshatOmar/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/AkshatOmar/DSA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/AkshatOmar/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/AkshatOmar/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/AkshatOmar/DSA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/AkshatOmar/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/AkshatOmar/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/AkshatOmar/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AkshatOmar/DSA/tree/master/0064-minimum-path-sum) |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/AkshatOmar/DSA/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/AkshatOmar/DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/AkshatOmar/DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/AkshatOmar/DSA/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/AkshatOmar/DSA/tree/master/0066-plus-one) |
