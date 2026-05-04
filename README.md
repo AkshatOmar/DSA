@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AkshatOmar/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/AkshatOmar/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [3488-closest-equal-element-queries](https://github.com/AkshatOmar/DSA/tree/master/3488-closest-equal-element-queries) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Greedy
@@ -538,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/AkshatOmar/DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/AkshatOmar/DSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/AkshatOmar/DSA/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/AkshatOmar/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -560,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AkshatOmar/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/AkshatOmar/DSA/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
@@ -656,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 ## Bitmask
 |  |
 | ------- |
@@ -890,4 +895,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
+## Segment Tree
+|  |
+| ------- |
+| [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 <!---LeetCode Topics End-->
