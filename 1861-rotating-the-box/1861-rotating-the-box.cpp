@@ -14,25 +14,19 @@ public:
         for(int i = 0;i<n;i++) {
             reverse(res[i].begin(),res[i].end());
         }
-        for(int j = 0;j<m;j++) {
-                for(int i = n-1;i>=0;i--) {
-                    if(res[i][j] == '.') {
-                        int nextRowStone = -1;
-                        for(int k = i-1;k>=0;k--) {
-                            if(res[k][j] == '*') break;
-                        
-                            if(res[k][j] == '#') {
-                                nextRowStone = k;
-                                break;
-                            }
-                        }
-                        if(nextRowStone != -1) {
-                            res[nextRowStone][j] = '.';
-                            res[i][j] = '#';
-                        }
-                    }
+        for (int j = 0; j < m; j++) {
+            int lowestRowWithEmptyCell = n - 1;
+            for (int i = n - 1; i >= 0; i--) {
+                if (res[i][j] == '#') {
+                    res[i][j] = '.';
+                    res[lowestRowWithEmptyCell][j] = '#';
+                    lowestRowWithEmptyCell--;
+                }
+                if (res[i][j] == '*') {
+                    lowestRowWithEmptyCell = i - 1;
                 }
             }
+        }
         return res;
     }
 };
