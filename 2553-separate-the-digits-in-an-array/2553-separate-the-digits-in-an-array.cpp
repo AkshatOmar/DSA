@@ -3,12 +3,16 @@ public:
     vector<int> separateDigits(vector<int>& nums) {
         int n = nums.size();
         vector<int>ans;
-
         for(int i = 0;i<n;i++) {
-            string s = to_string(nums[i]);
-            for(int j = 0;j<s.size();j++) {
-                int num = s[j] - '0';
-                ans.push_back(num);
+            vector<int>temp;
+            int num = nums[i];
+            while(num > 0) {
+                temp.push_back(num % 10);
+                num /= 10;
+            }
+            reverse(temp.begin(),temp.end());
+            for(int &it : temp) {
+                ans.push_back(it);
             }
         }
         return ans;
