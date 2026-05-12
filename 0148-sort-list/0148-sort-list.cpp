@@ -10,23 +10,50 @@
  */
 class Solution {
 public:
-    ListNode* sortList(ListNode* head) {
-        ListNode* temp = head;
-        vector<int>nums; 
-        while(temp != NULL) {
-            nums.push_back(temp->val);
-            temp = temp->next;
-            
+    ListNode* findMiddle(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head->next;
+        while(fast != NULL && fast ->next != NULL) {
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        sort(nums.begin(), nums.end());
-        temp = head; 
-        int i = 0;
-        while(temp != NULL) {
-            temp ->val = nums[i];
-            temp = temp->next;
-            i++;
-        }
-        return head;
+        return slow;
     }
+    ListNode* mergeTwoLists(ListNode* head1, ListNode* head2) {
+        ListNode* dummyNode = new ListNode(-1);
+        ListNode* temp = dummyNode;
+        while(head1 != NULL && head2 != NULL) {
+            if(head1->val <= head2->val) {
+                temp->next = head1;
+                head1 = head1->next;
+            }
+            else {
+                temp->next = head2;
+                head2 = head2->next;
+            }
+            temp = temp->next;
+        }
+        if(head1 != NULL) {
+            temp->next = head1;
+        }
+        else{
+            temp->next = head2;
+        }
+        return dummyNode->next;
+    }
+    ListNode* sortList(ListNode* head) {
+        if(head == NULL || head->next == NULL) {
+            return head;
+        }
+        ListNode* middle = findMiddle(head);
+        
+        ListNode* righthead = middle->next;
+        middle->next = NULL;
+        ListNode* lefthead = head;
 
+        lefthead = sortList(lefthead);
+        righthead = sortList(righthead);
+        return mergeTwoLists(lefthead, righthead);
+
+    }
 };
