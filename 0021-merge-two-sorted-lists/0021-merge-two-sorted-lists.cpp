@@ -11,26 +11,25 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* dummy = new ListNode(-1); // Dummy node to simplify merging
-        ListNode* temp = dummy; // Pointer to build the merged list
-        
-        while (list1 != nullptr && list2 != nullptr) {
-            if (list1->val < list2->val) {
+        ListNode* dummyNode = new ListNode(-1);
+        ListNode* temp = dummyNode;
+        while(list1 != NULL && list2 != NULL) {
+            if(list1->val <= list2->val) {
                 temp->next = list1;
                 list1 = list1->next;
-            } else {
+            }
+            else {
                 temp->next = list2;
                 list2 = list2->next;
             }
-            temp = temp->next; // Move forward in the merged list
+            temp = temp->next;
         }
-
-        // Attach the remaining nodes (if any)
-        if (list1) temp->next = list1;
-        else temp->next = list2;
-
-        ListNode* head = dummy->next; // Store the head of the merged list
-        delete dummy; // Free the dummy node
-        return head;
+        if(list1 != NULL) {
+            temp->next = list1;
+        }
+        else {
+            temp ->next = list2;
+        }
+        return dummyNode->next;
     }
 };
