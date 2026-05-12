@@ -30,6 +30,8 @@ public:
         else {
             temp ->next = list2;
         }
-        return dummyNode->next;
+        ListNode* head = dummyNode->next;
+        delete dummyNode;
+        return head;
     }
 };
