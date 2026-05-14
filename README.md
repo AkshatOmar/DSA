@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2553-separate-the-digits-in-an-array](https://github.com/AkshatOmar/DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/AkshatOmar/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3488-closest-equal-element-queries](https://github.com/AkshatOmar/DSA/tree/master/3488-closest-equal-element-queries) |
@@ -579,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
+| [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/AkshatOmar/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/AkshatOmar/DSA/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
