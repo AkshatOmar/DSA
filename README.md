@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/AkshatOmar/DSA/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/AkshatOmar/DSA/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/AkshatOmar/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/AkshatOmar/DSA/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/AkshatOmar/DSA/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/AkshatOmar/DSA/tree/master/0198-house-robber) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/AkshatOmar/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0222-count-complete-tree-nodes](https://github.com/AkshatOmar/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [0704-binary-search](https://github.com/AkshatOmar/DSA/tree/master/0704-binary-search) |
