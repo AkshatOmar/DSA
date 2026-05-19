@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2412-minimum-money-required-before-transactions](https://github.com/AkshatOmar/DSA/tree/master/2412-minimum-money-required-before-transactions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AkshatOmar/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2540-minimum-common-value](https://github.com/AkshatOmar/DSA/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/AkshatOmar/DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/AkshatOmar/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [2540-minimum-common-value](https://github.com/AkshatOmar/DSA/tree/master/2540-minimum-common-value) |
 | [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -530,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1861-rotating-the-box](https://github.com/AkshatOmar/DSA/tree/master/1861-rotating-the-box) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/AkshatOmar/DSA/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2540-minimum-common-value](https://github.com/AkshatOmar/DSA/tree/master/2540-minimum-common-value) |
 ## Binary Search
 |  |
 | ------- |
@@ -543,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/AkshatOmar/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2540-minimum-common-value](https://github.com/AkshatOmar/DSA/tree/master/2540-minimum-common-value) |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
 | [3488-closest-equal-element-queries](https://github.com/AkshatOmar/DSA/tree/master/3488-closest-equal-element-queries) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
