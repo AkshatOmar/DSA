@@ -2,25 +2,14 @@ class Solution {
 public:
     bool check(vector<int>& nums) {
         int n = nums.size();
-        vector<int>arr(n);
-        for(int i = 0;i<n;i++) {
-            int idx = 0;
-            for(int j = i;j<n;j++) {
-                arr[idx] = nums[j];
-                idx++;
+        int peak = 0;
+        for(int i = 0;i<n-1;i++) {
+            if(nums[i] > nums[i+1]) {
+                peak++;
             }
-            for(int k = 0;k<i;k++) {
-                arr[idx++] = nums[k];
-            }
-            bool isSorted = true;
-            for(int j = 0;j<n-1;j++) {
-                if(arr[j] > arr[j+1]){
-                    isSorted = false;
-                    break;
-                }
-            }
-            if(isSorted) return true;
         }
-        return false;
+        if(nums[n-1] > nums[0])peak++;
+        if(peak > 1) return false;
+        return true;
     }
 };
