@@ -1,44 +1,48 @@
 class Solution {
 public:
-    int lowerBound(vector<int>&nums, int target) {
-        int n = nums.size();
-        int i = 0;
-        int j = n-1;
-        int lb = n;
-        while(i<=j) {
-            int mid = i + (j-i)/2;
-            if(nums[mid] >= target) {
-                lb = mid;
-                j = mid-1;
-            }
-            else {
-                i = mid+1;
-            }
-        }
-        return lb;
-    }
-    int upperBound(vector<int>&nums,int target) {
+    int firstOcc(vector<int>&nums,int target) {
         int n = nums.size();
         int low = 0;
         int high = n-1;
-        int ub = n;
+        int first = -1;
         while(low<=high) {
-            int mid = low + (high-low)/2;
-            if(nums[mid] > target) {
-                ub = mid;
+            int mid = low+(high-low)/2;
+            if(nums[mid] == target) {
                 high = mid-1;
+                first = mid;
             }
-            else {
+            else if(nums[mid] < target) {
                 low = mid+1;
             }
+            else {
+                high = mid-1;
+            }
         }
-        return ub;
+        return first;
+    }
+    int lastOcc(vector<int>&nums,int target) {
+        int n = nums.size();
+        int low = 0;
+        int high = n-1;
+        int last = -1;
+        while(low<=high) {
+            int mid = low+(high-low)/2;
+            if(nums[mid] == target) {
+                low = mid+1;
+                last = mid;
+            }
+            else if(nums[mid] < target) {
+                low = mid+1;
+            }
+            else {
+                high = mid-1;
+            }
+        }
+        return last;
     }
     vector<int> searchRange(vector<int>& nums, int target) {
-        int n = nums.size();
-        int lb = lowerBound(nums,target);
-        
-        if(lb == n || nums[lb] != target) return {-1,-1};
-        return {lb,upperBound(nums,target)-1};
+        int first = firstOcc(nums,target);
+        if(first == -1) return {-1,-1};
+        return {first,lastOcc(nums,target)};
     }
 };
