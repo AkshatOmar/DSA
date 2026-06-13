@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/AkshatOmar/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/AkshatOmar/DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/AkshatOmar/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3838-weighted-word-mapping](https://github.com/AkshatOmar/DSA/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
 | ------- |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/AkshatOmar/DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/AkshatOmar/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3838-weighted-word-mapping](https://github.com/AkshatOmar/DSA/tree/master/3838-weighted-word-mapping) |
 ## Math
 |  |
 | ------- |
@@ -665,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/AkshatOmar/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3838-weighted-word-mapping](https://github.com/AkshatOmar/DSA/tree/master/3838-weighted-word-mapping) |
 ## Linked List
 |  |
 | ------- |
