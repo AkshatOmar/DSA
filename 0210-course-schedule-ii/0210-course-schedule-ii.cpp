@@ -1,41 +1,34 @@
 class Solution {
 public:
-    bool dfs(int node,vector<vector<int>>&graph,int numCourses, vector<int>&vis,vector<int>&path,stack<int>&st) {
-        vis[node] = 1;
-        path[node] = 1;
-        for(auto it : graph[node]) {
-            if(vis[it] == 0) {
-                if(dfs(it,graph,numCourses,vis,path,st))return true;
-            }
-            else if(path[it] == 1){
-                return true;
-            }
-        }
-        path[node] = 0;
-        st.push(node);
-        return false;
-        
-    }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>>graph(numCourses);
+        vector<int>indegree(numCourses,0);
         for(auto it : prerequisites) {
             graph[it[1]].push_back(it[0]);
+            indegree[it[0]]++;
         }
-        vector<int>vis(numCourses,0);
-        vector<int>path(numCourses,0);
-        stack<int>st;
-        for(int i = 0;i<numCourses;i++) {
-            
-            if(vis[i] == 0) {
-                if(dfs(i,graph,numCourses,vis,path,st))return {};
+        queue<int>q;
+        for(int i = 0;i<indegree.size();i++) {
+            if(indegree[i] == 0) {
+                q.push(i);
             }
-            
         }
         vector<int>ans;
-        while(!st.empty()) {
-            ans.push_back(st.top());
-            st.pop();
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+            ans.push_back(node);
+            for(int it : graph[node]) {
+                indegree[it]--;
+                if(indegree[it] == 0) {
+                    q.push(it);
+                }
+            }
         }
-        return ans;
+        if(numCourses == ans.size()) {
+            return ans;
+        }
+        return {};
+
     }
 };
