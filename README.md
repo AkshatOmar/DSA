@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/AkshatOmar/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [0643-maximum-average-subarray-i](https://github.com/AkshatOmar/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0695-max-area-of-island](https://github.com/AkshatOmar/DSA/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/AkshatOmar/DSA/tree/master/0704-binary-search) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/AkshatOmar/DSA/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/AkshatOmar/DSA/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/AkshatOmar/DSA/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/AkshatOmar/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/AkshatOmar/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/AkshatOmar/DSA/tree/master/0827-making-a-large-island) |
@@ -458,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/AkshatOmar/DSA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AkshatOmar/DSA/tree/master/0743-network-delay-time) |
@@ -524,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AkshatOmar/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/AkshatOmar/DSA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AkshatOmar/DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/AkshatOmar/DSA/tree/master/0743-network-delay-time) |
@@ -939,6 +943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/AkshatOmar/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/AkshatOmar/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AkshatOmar/DSA/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/AkshatOmar/DSA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/AkshatOmar/DSA/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/AkshatOmar/DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/AkshatOmar/DSA/tree/master/0785-is-graph-bipartite) |
