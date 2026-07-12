@@ -7,7 +7,7 @@ public:
         long long ans = 0;
         while(j<n) {
             currSum += nums[j];
-            while(i<= j && currSum*(j-i+1) >= k) {
+            while(currSum*(j-i+1) >= k) {
                 currSum -= nums[i];
                 i++;
             }
