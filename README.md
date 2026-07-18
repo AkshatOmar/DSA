@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1861-rotating-the-box](https://github.com/AkshatOmar/DSA/tree/master/1861-rotating-the-box) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/AkshatOmar/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/AkshatOmar/DSA/tree/master/1944-number-of-visible-people-in-a-queue) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/AkshatOmar/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AkshatOmar/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/AkshatOmar/DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/AkshatOmar/DSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1390-four-divisors](https://github.com/AkshatOmar/DSA/tree/master/1390-four-divisors) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/AkshatOmar/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1642-water-bottles](https://github.com/AkshatOmar/DSA/tree/master/1642-water-bottles) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/AkshatOmar/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2031-egg-drop-with-2-eggs-and-n-floors](https://github.com/AkshatOmar/DSA/tree/master/2031-egg-drop-with-2-eggs-and-n-floors) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AkshatOmar/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2050-count-good-numbers](https://github.com/AkshatOmar/DSA/tree/master/2050-count-good-numbers) |
@@ -742,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/AkshatOmar/DSA/tree/master/0204-count-primes) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/AkshatOmar/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/AkshatOmar/DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## String Matching
