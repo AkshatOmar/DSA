@@ -7,21 +7,22 @@ queue<int>q;
     
     void push(int x) {
         q.push(x);
-        for(int i = 0;i<q.size()-1;i++) {
+        int n = q.size();
+        for(int i = 0;i<n-1;i++) {
             q.push(q.front());
             q.pop();
         }
-
     }
     
     int pop() {
-        int top = q.front();
+        int val =  q.front();
         q.pop();
-        return top;
+        return val;
+
     }
     
     int top() {
-        return q.front();
+      return q.front();  
     }
     
     bool empty() {
