@@ -4,16 +4,18 @@ public:
         int n = nums1.size();
         int m = nums2.size();
         vector<int>ans(n,-1);
-        for(int i = 0;i<n;i++) {
-            for(int j = 0;j<m;j++) {
-                if(nums2[j] == nums1[i] && j!=m-1) {
-                    for(int k = j+1;k<m;k++) {
-                        if(nums2[k] > nums2[j]) {
-                            ans[i] = nums2[k];
-                            break;
-                        }
-                    }
+        unordered_map<int,int>mp;
+        for(int i = 0;i<m-1;i++) {
+            for(int j = i+1;j<m;j++) {
+                if(nums2[i] < nums2[j]) {
+                    mp[nums2[i]] = nums2[j];
+                    break;
                 }
+            }
+        }
+        for(int i = 0;i<n;i++) {
+            if(mp.count(nums1[i])) {
+                ans[i] = mp[nums1[i]];
             }
         }
         return ans;
