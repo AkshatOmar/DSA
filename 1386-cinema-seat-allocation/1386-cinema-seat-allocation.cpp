@@ -1,19 +1,20 @@
 class Solution {
 public:
-    bool isAvailable(unordered_map<int,unordered_set<int>>&mp, int it,int val) {
-        return mp[it].find(val) == mp[it].end();
-    }
+    
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
         unordered_map<int,unordered_set<int>>mp;
         int res = 0;
-        for(auto it : reservedSeats) {
+        for(auto& it : reservedSeats) {
             mp[it[0]].insert(it[1]);
         }
         res += (n - mp.size())*2;
-        for(auto it : mp) {
-            bool groupA = isAvailable(mp,it.first,2) && isAvailable(mp,it.first,3) && isAvailable(mp,it.first,4) && isAvailable(mp,it.first,5);
-            bool groupB = isAvailable(mp,it.first,4) && isAvailable(mp,it.first,5) && isAvailable(mp,it.first,6) && isAvailable(mp,it.first,7);
-            bool groupC = isAvailable(mp,it.first,6) && isAvailable(mp,it.first,7) && isAvailable(mp,it.first,8) && isAvailable(mp,it.first,9);
+        for(auto& [row, bookedSeats] : mp) {
+            auto isAvailable = [&](int seat) {
+                return bookedSeats.find(seat) == bookedSeats.end();
+            };
+            bool groupA = isAvailable(2) && isAvailable(3) && isAvailable(4) && isAvailable(5);
+            bool groupB = isAvailable(4) && isAvailable(5) && isAvailable(6) && isAvailable(7);
+            bool groupC = isAvailable(6) && isAvailable(7) && isAvailable(8) && isAvailable(9);
 
             if(groupA && groupC) {
                 res += 2;
