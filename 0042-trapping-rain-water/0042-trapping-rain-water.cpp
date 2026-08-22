@@ -9,10 +9,9 @@ public:
         suffMax[n-1] = height[n-1];
         for(int i =1;i<n;i++) {
             prefMax[i] = max(height[i], prefMax[i-1]); 
+            suffMax[n-i-1] = max(height[n-1-i],suffMax[n-i]);
         }
-        for(int i =n-2;i>=0;i--) {
-            suffMax[i] = max(height[i],suffMax[i+1]);
-        }
+        
 
         for(int i = 0;i<n;i++) {
             ans += min(prefMax[i],suffMax[i]) - height[i];
