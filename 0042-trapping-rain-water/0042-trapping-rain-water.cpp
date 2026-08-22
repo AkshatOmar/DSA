@@ -3,29 +3,19 @@ public:
     int trap(vector<int>& height) {
         int n = height.size();
         int ans = 0;
-        // vector<int>nge(n);
-        // stack<int>st;
-        // for(int i = n-1;i>=0;i--) {
-        //     while(!st.empty() && st.top() <= height[i]) {
-        //         st.pop();
-        //     }
-        //     nge[i] = st.empty() ? -1 : st.top();
-        //     st.push(height[i]);
-        // }
         vector<int>prefMax(n);
         vector<int>suffMax(n);
         prefMax[0] = height[0];
         suffMax[n-1] = height[n-1];
-        for(int i = 1;i<n;i++) {
-            prefMax[i] = max(height[i],prefMax[i-1]);
+        for(int i =1;i<n;i++) {
+            prefMax[i] = max(height[i], prefMax[i-1]); 
         }
-        for(int i = n-2;i>=0;i--) {
+        for(int i =n-2;i>=0;i--) {
             suffMax[i] = max(height[i],suffMax[i+1]);
         }
+
         for(int i = 0;i<n;i++) {
-            if(height[i] <= prefMax[i] && height[i] <= suffMax[i]) {
-                ans += min(prefMax[i],suffMax[i]) - height[i];
-            }
+            ans += min(prefMax[i],suffMax[i]) - height[i];
         }
         return ans;
     }
