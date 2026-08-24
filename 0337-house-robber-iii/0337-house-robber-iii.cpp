@@ -13,16 +13,14 @@ class Solution {
 public:
     pair<int,int> helper(TreeNode* root) {
         if(root == NULL) return {0,0};
-
         auto left = helper(root->left);
         auto right = helper(root->right);
-
         int withRoot = root->val + left.second + right.second;
         int withoutRoot = max(left.first,left.second) + max(right.first,right.second);
-        return {withRoot,withoutRoot};
+        return {withRoot,withoutRoot}; 
     }
     int rob(TreeNode* root) {
-        pair<int,int> p = helper(root);
-        return max(p.first,p.second);
+        auto ans = helper(root);
+        return max(ans.first,ans.second);
     }
 };
