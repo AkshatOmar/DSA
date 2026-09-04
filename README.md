@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3742-maximum-path-score-in-a-grid](https://github.com/AkshatOmar/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3838-weighted-word-mapping](https://github.com/AkshatOmar/DSA/tree/master/3838-weighted-word-mapping) |
 | [3875-construct-uniform-parity-array-i](https://github.com/AkshatOmar/DSA/tree/master/3875-construct-uniform-parity-array-i) |
+| [3903-smallest-stable-index-i](https://github.com/AkshatOmar/DSA/tree/master/3903-smallest-stable-index-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -812,6 +813,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/AkshatOmar/DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/AkshatOmar/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3903-smallest-stable-index-i](https://github.com/AkshatOmar/DSA/tree/master/3903-smallest-stable-index-i) |
 ## Ordered Set
 |  |
 | ------- |
