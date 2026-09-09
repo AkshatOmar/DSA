@@ -7,11 +7,10 @@ public:
             mp[nums[i]] = i;
         }
         for(int i = 0;i<n;i++) {
-            int remaining = target - nums[i];
-            if(mp.find(remaining) != mp.end() && mp[remaining] != i) {
-                return {i,mp[remaining]};
+            if(mp.count(target-nums[i]) && i != mp[target-nums[i]]) {
+                return {i,mp[target-nums[i]]};
             }
         }
-        return {};
+        return {-1,-1};
     }
 };
