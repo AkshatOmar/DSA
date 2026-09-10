@@ -1,8 +1,14 @@
 # Write your MySQL query statement below
-select d.name as Department,
-e.name as Employee, e.salary as Salary
+with cte as (
+    select d.name as Department,
+e.name as Employee, e.salary as Salary, 
+DENSE_RANK() OVER(partition BY e.departmentId ORDER BY e.salary DESC) as rnk
 FROM Employee e
- JOIN Department d
+LEFT JOIN Department d
 ON e.departmentId=d.id
-where e.salary = (select max(salary) from Employee where departmentId = e.departmentId)
 
+
+)
+select Department,Employee,Salary 
+FROM CTE 
+where rnk = 1;
