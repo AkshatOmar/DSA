@@ -1,42 +1,39 @@
 class Solution {
 public:
-    void findNSE(vector<int>&arr, vector<int>&nse) {
-        int n =arr.size();
+    void findNSE(vector<int>&arr,vector<int>&nse, int n) {
         stack<int>st;
-        for(int i = n-1;i>=0;i--) {
-           
+
+        for(int i =n-1;i>=0;i--) {
             while(!st.empty() && arr[st.top()] >= arr[i]) {
                 st.pop();
             }
-            nse[i] = st.empty() ? n:st.top();
+            nse[i] = !st.empty() ? (st.top()-i) : (n-i);
             st.push(i);
         }
-    
     }
-    void findPSE(vector<int>&arr, vector<int>&pse) {
-        int n = arr.size();
+    void findPSE(vector<int>&arr,vector<int>&pse, int n) {
         stack<int>st;
-        for(int i = 0;i<n;i++) {
+        for(int i =0 ;i<n;i++) {
             while(!st.empty() && arr[st.top()] > arr[i]) {
                 st.pop();
+
             }
-            pse[i] = st.empty() ? -1 : st.top();
+            pse[i] = !st.empty() ? i-st.top() : (i+1);
             st.push(i);
         }
     }
     int sumSubarrayMins(vector<int>& arr) {
         int n = arr.size();
-        long long mod = (int)1e9+7;
-        long long sum = 0;
-        vector<int>nse(n);
+        int sum = 0;
+        int mod = 1e9+7;
         vector<int>pse(n);
-        findNSE(arr,nse);
-        findPSE(arr,pse);
+        vector<int>nse(n);
+        findNSE(arr,nse,n);
+        findPSE(arr,pse,n);
         
         for(int i = 0;i<n;i++) {
-            int left = i-pse[i];
-            int right=nse[i]-i;
-            sum = (sum+((right*left)%mod*arr[i])%mod)%mod;
+            long long cnt = (1LL*nse[i]*pse[i])%mod;
+            sum = (sum+cnt*arr[i])%mod;
         }
         return sum;
     }
