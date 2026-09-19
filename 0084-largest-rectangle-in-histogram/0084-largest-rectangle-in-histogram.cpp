@@ -1,36 +1,28 @@
 class Solution {
 public:
-    void findNSE(vector<int>&heights, vector<int>&nse, int n) {
-        stack<int>st;
-        for(int i = n-1;i>=0;i--) {
-            while(!st.empty() && heights[st.top()] >= heights[i]) {
-                st.pop();
-            }
-            nse[i] = st.empty() ? n : st.top();
-            st.push(i);
-        }
-
-    }
-    void findPSE(vector<int>&heights, vector<int>&pse, int n) {
-        stack<int>st;
-        for(int i = 0;i<n;i++) {
-            while(!st.empty() && heights[st.top()] >= heights[i]) {
-                st.pop();
-            }
-            pse[i] = st.empty() ? -1 : st.top();
-            st.push(i);
-        }
-    }
     int largestRectangleArea(vector<int>& heights) {
-        // intution -> find Minimum of the subarray and then find the max area;
         int n = heights.size();
+        stack<int>st;
+        int idx = 0;
+        int nse = n;
+        int pse = -1;
         int area = 0;
-        vector<int>pse(n);
-        vector<int>nse(n);
-        findNSE(heights,nse,n);
-        findPSE(heights,pse,n);
         for(int i = 0;i<n;i++) {
-            area = max(area, heights[i]*(nse[i]-pse[i]-1));
+            while(!st.empty() && heights[st.top()] > heights[i]) {
+                idx = st.top();
+                st.pop();
+                nse = i;
+                pse = st.empty() ? -1 : st.top();
+                area = max(area,heights[idx]*(nse-pse-1));
+            }
+            st.push(i);
+        }
+        while(!st.empty()) {
+            idx = st.top();
+            st.pop();
+            nse = n;
+            pse = st.empty() ? -1 : st.top();
+            area = max(area, heights[idx]*(nse-pse-1));
         }
         return area;
     }
