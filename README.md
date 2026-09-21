@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/AkshatOmar/DSA/tree/master/0827-making-a-large-island) |
 | [0830-largest-triangle-area](https://github.com/AkshatOmar/DSA/tree/master/0830-largest-triangle-area) |
 | [0835-image-overlap](https://github.com/AkshatOmar/DSA/tree/master/0835-image-overlap) |
+| [0860-lemonade-change](https://github.com/AkshatOmar/DSA/tree/master/0860-lemonade-change) |
 | [0877-stone-game](https://github.com/AkshatOmar/DSA/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/AkshatOmar/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/AkshatOmar/DSA/tree/master/0907-sum-of-subarray-minimums) |
@@ -675,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/AkshatOmar/DSA/tree/master/0605-can-place-flowers) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
+| [0860-lemonade-change](https://github.com/AkshatOmar/DSA/tree/master/0860-lemonade-change) |
 | [1018-largest-perimeter-triangle](https://github.com/AkshatOmar/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1386-cinema-seat-allocation](https://github.com/AkshatOmar/DSA/tree/master/1386-cinema-seat-allocation) |
