@@ -30,20 +30,14 @@ public:
                     if(new_i >= 0 && new_i <n && new_j>=0 && new_j<m && grid[new_i][new_j] == 1) {
                         grid[new_i][new_j] = 2;
                         q.push({new_i,new_j});
-                        
+                        fresh--;
                     }
                 }
             }
             
             minutes++;
         }
-        for(int i = 0;i<n;i++) {
-            for(int j = 0;j<m;j++) {
-                if(grid[i][j] == 1) {
-                    return -1;
-                }
-            }
-        }
-        return minutes-1;
+        
+        return fresh == 0 ? minutes-1 : -1;
     }
 };
