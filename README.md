@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/AkshatOmar/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1189-maximum-number-of-balloons](https://github.com/AkshatOmar/DSA/tree/master/1189-maximum-number-of-balloons) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AkshatOmar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/AkshatOmar/DSA/tree/master/1250-longest-common-subsequence) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/AkshatOmar/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshatOmar/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -565,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/AkshatOmar/DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/AkshatOmar/DSA/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/AkshatOmar/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AkshatOmar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/AkshatOmar/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/AkshatOmar/DSA/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/AkshatOmar/DSA/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -1177,4 +1179,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/AkshatOmar/DSA/tree/master/0056-merge-intervals) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AkshatOmar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
