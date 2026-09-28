@@ -1,35 +1,45 @@
 class Solution {
 public:
-    vector<vector<int>>directions{{-1,0},{1,0},{0,-1},{0,1},{1,1},{-1,1},{1,-1},{-1,-1}};
+    vector<vector<int>>directions{{-1,0},{1,0},{0,-1},{0,1},{-1,-1},{-1,1},{1,-1},{1,1}};
+    
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+        if(grid[0][0] == 1) return -1;
         int n = grid.size();
-        if(grid[0][0] == 1 || grid[n-1][n-1]==1) return -1;
-        queue<pair<int,int>>q;
-        //push i,j in queue
-        q.push({0,0});
-        //initialize sum for returning ansl
-        int sum = 0;
+        int m = grid[0].size();
+        vector<vector<int>>mat(n,vector<int>(m));
+        for(int i = 0;i<n;i++) {
+            for(int j = 0;j<m;j++) {
+                mat[i][j] = grid[i][j];
+            }
+        }
+        int dist = 0;
+        queue<vector<int>>q;
+        q.push({0,0,0});
+        int minDist = INT_MAX;
+        
         while(!q.empty()) {
             int size = q.size();
-            for(int k =0;k<size;k++) {
-                int i = q.front().first;
-                int j = q.front().second;
+            for(int k = 0;k<size;k++) {
+                int i = q.front()[0];
+                int j = q.front()[1];
+                int dist = q.front()[2];
                 q.pop();
-                
-                if(i == n-1 && j == n-1) {
-                    return sum+1;
+                if(i==n-1 && j == m-1) {
+                    minDist = min(minDist,dist);
+                    
                 }
                 for(auto &dir : directions) {
-                    int new_i = i + dir[0];
-                    int new_j = j + dir[1];
-                    if(new_i >=0 && new_i<n && new_j>=0 && new_j < n && grid[new_i][new_j] == 0) {
-                        grid[new_i][new_j] = 1;
-                        q.push({new_i,new_j});
+                    int new_i = i+dir[0];
+                    int new_j = j+dir[1];
+                    if(new_i >=0 && new_i<n && new_j>=0 && new_j<n && mat[new_i][new_j] == 0) {
+                        q.push({new_i,new_j,dist+1});
+                        mat[new_i][new_j] = -1;
+                        
                     }
                 }
             }
-            sum++;
         }
-        return -1;
+        return minDist!=INT_MAX ? minDist+1 : -1;
+
     }
 };
