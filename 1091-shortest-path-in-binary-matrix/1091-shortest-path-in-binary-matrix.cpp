@@ -6,12 +6,7 @@ public:
         if(grid[0][0] == 1) return -1;
         int n = grid.size();
         int m = grid[0].size();
-        vector<vector<int>>mat(n,vector<int>(m));
-        for(int i = 0;i<n;i++) {
-            for(int j = 0;j<m;j++) {
-                mat[i][j] = grid[i][j];
-            }
-        }
+        
         int dist = 0;
         queue<vector<int>>q;
         q.push({0,0,0});
@@ -31,9 +26,9 @@ public:
                 for(auto &dir : directions) {
                     int new_i = i+dir[0];
                     int new_j = j+dir[1];
-                    if(new_i >=0 && new_i<n && new_j>=0 && new_j<n && mat[new_i][new_j] == 0) {
+                    if(new_i >=0 && new_i<n && new_j>=0 && new_j<n && grid[new_i][new_j] == 0) {
                         q.push({new_i,new_j,dist+1});
-                        mat[new_i][new_j] = -1;
+                        grid[new_i][new_j] = -1;
                         
                     }
                 }
