@@ -1,21 +1,25 @@
 class Solution {
 public:
-    bool helper(string s, int n, int idx, int cnt,vector<vector<int>>&dp) {
-        if(cnt < 0) return false;
-        if(idx >= n && cnt == 0) return true;
-        if(idx >= n && cnt != 0) return false;
-        if(dp[idx][cnt] != -1) return dp[idx][cnt];
-        if(s[idx] == '*') {
-            return dp[idx][cnt] = helper(s,n,idx+1,cnt+1,dp) || helper(s,n,idx+1,cnt-1,dp) || helper(s,n,idx+1,cnt,dp);
-            
-        }
-        if(s[idx] == '(')
-            return dp[idx][cnt] = helper(s,n,idx+1,cnt+1,dp);
-        return dp[idx][cnt] = helper(s,n,idx+1,cnt-1,dp);
-    }
     bool checkValidString(string s) {
         int n = s.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        return helper(s,n,0,0,dp);
+        int mini = 0;
+        int maxi = 0;
+        for(int i = 0;i<n;i++) {
+            if(s[i] == '(') {
+                mini++;
+                maxi++;
+            }
+            else if(s[i] == ')') {
+                mini--;
+                maxi--;
+            }
+            else {
+                mini--;
+                maxi++;
+            }
+            if(mini<0) mini = 0;
+            if(maxi<0) return false;
+        }
+        return mini==0;
     }
 };
