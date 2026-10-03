@@ -1,28 +1,20 @@
 class Solution {
 public:
-    void helper(vector<string>&ans, string temp, int i, int n,int cnt) {
+    void helper(vector<string>&ans, string temp, int n, int i, int open, int close) {
         if(i == 2*n) {
-            if(cnt==0){
-                ans.push_back(temp);
-            }
+            ans.push_back(temp);
             return;
         }
-        
-        if(i+cnt < 2*n) {
-            
-           // cnt++;
-             helper(ans,temp+'(',i+1,n,cnt+1);
+        if(open<n) {
+            helper(ans,temp+'(',n,i+1,open+1,close);
         }
-        if(cnt>0) {
-            //cnt--;
-            helper(ans,temp+')',i+1,n,cnt-1);
+        if(open>close) {
+            helper(ans,temp+')',n,i+1,open,close+1);
         }
     }
-
     vector<string> generateParenthesis(int n) {
         vector<string>ans;
-        // int cnt = 0;
-        helper(ans,"",0,n,0);
+        helper(ans,"",n,0,0,0);
         return ans;
     }
 };
