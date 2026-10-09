@@ -1,24 +1,22 @@
 class Solution {
 public:
-    int helper(vector<int>&prices,int i, bool buy,int n,vector<vector<int>>&dp) {
-        if(i>=n) return 0;
-        if(dp[i][buy] != -1) return dp[i][buy];
-        int profit = 0;
-        if(buy) {
-            int take = -prices[i] + helper(prices,i+1,false,n,dp);
-            int notake = helper(prices,i+1,true,n,dp);
-            profit = max(take,notake);
-        }
-        else {
-            int take = prices[i] + helper(prices,i+1,true,n,dp);
-            int notake = helper(prices,i+1,false,n,dp);
-            profit = max(take,notake);
-        }
-        return dp[i][buy] = profit;
-    }
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        vector<vector<int>>dp(n+1,vector<int>(2,-1));
-        return helper(prices,0,true,n,dp);
+        vector<vector<int>>dp(n+1,vector<int>(2,0));
+        dp[n-1][0] = 0;
+        dp[n-1][1] = 0;
+        for(int i = n-1;i>=0;i--) {
+            for(int buy = 0;buy<2;buy++) {
+                int profit = 0;
+                if(buy) {
+                    profit = max(-prices[i]+dp[i+1][0],dp[i+1][1]);
+                }
+                else {
+                    profit = max(prices[i]+dp[i+1][1],dp[i+1][0]);
+                }
+                dp[i][buy] = profit;
+            }
+        }
+        return dp[0][1];
     }
 };
