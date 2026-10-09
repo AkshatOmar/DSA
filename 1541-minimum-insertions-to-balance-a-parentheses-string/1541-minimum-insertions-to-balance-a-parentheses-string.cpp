@@ -9,23 +9,26 @@ public:
                 st.push(s[i]);
             }
             else if(s[i] == ')') {
-                if(!st.empty() && s[i+1] == ')') {
-                    st.pop();
-                    i++;
+                if(!st.empty()) {
+                    if(s[i+1] == ')') {
+                        st.pop();
+                        i++;
+                        
+                    }
+                    else {
+                        st.pop();
+                        cnt++;
+                    }
                 }
-                else if(st.empty() && s[i+1] == ')') {
-                    cnt++;
-                    i++;
+                else {
+                    if(s[i+1] == ')') {
+                        cnt++;
+                        i++;
+                    }
+                    else {
+                        cnt+=2;
+                    }
                 }
-                else if(st.empty() && s[i+1] != ')') {
-                    cnt+=2;
-                }
-                else if(!st.empty() && s[i+1]!=')') {
-                    st.pop();
-                    cnt++;
-                }
-                
-
             }
         }
         if(!st.empty()) {
