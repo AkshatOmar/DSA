@@ -1,43 +1,36 @@
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int m = matrix[0].size();
+
+        int top = 0, bottom = n-1;
+        int left = 0, right = m-1;
         vector<int>ans;
-        int row = matrix.size();
-        int col= matrix[0].size();
-        int count=0;
-        int total=row*col;
-
-        int startingRow=0;
-        int startingCol=0;
-        int endingRow=row-1;
-        int endingCol=col-1;
-
-        while(count<total){
-            //print starting row
-            for(int index=startingCol;count<total && index<=endingCol;index++){
-                ans.push_back(matrix[startingRow][index]);
-                count++;
+        while(left<=right && top<=bottom) {
+            for(int i = left;i<=right;i++) {
+                ans.push_back(matrix[top][i]);
             }
-            startingRow++;
-            //print ending col
-            for(int index=startingRow;count<total && index<=endingRow;index++){
-                ans.push_back(matrix[index][endingCol]);
-                count++;
-                
+            top++;
+            for(int i = top;i<=bottom;i++) {
+                ans.push_back(matrix[i][right]);
             }
-            endingCol--;
-            for(int index=endingCol;count<total &&index>=startingCol;index--){
-                ans.push_back(matrix[endingRow][index]);
-                count++;
+            right--;
+            if (top <= bottom) {
+                for(int i = right;i>=left;i--) {
+                    ans.push_back(matrix[bottom][i]);
+                }
+                bottom--;
             }
-            endingRow--;
-            for(int index=endingRow;count<total &&index>=startingRow;index--){
-                ans.push_back(matrix[index][startingCol]);
-                count++;
+            if (left <= right) {
+                for(int i = bottom;i>=top;i--) {
+                    ans.push_back(matrix[i][left]);
+                }
+                left++;
             }
-            startingCol++;
+            
         }
+        
         return ans;
-
     }
 };
