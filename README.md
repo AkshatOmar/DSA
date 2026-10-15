@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2778-sum-of-squares-of-special-elements](https://github.com/AkshatOmar/DSA/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AkshatOmar/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/AkshatOmar/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/AkshatOmar/DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/AkshatOmar/DSA/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/AkshatOmar/DSA/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AkshatOmar/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AkshatOmar/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/AkshatOmar/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/AkshatOmar/DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/AkshatOmar/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -1181,10 +1183,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AkshatOmar/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Segment Tree
 |  |
 | ------- |
 | [2659-make-array-empty](https://github.com/AkshatOmar/DSA/tree/master/2659-make-array-empty) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AkshatOmar/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Queue
 |  |
 | ------- |
