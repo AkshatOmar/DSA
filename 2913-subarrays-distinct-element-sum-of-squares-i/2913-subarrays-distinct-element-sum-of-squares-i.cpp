@@ -6,9 +6,9 @@ public:
         for(int i = 0;i<n;i++) {
             unordered_set<int>st;
             for(int j = i;j<n;j++) {
-                for(int k = i;k<=j;k++) {
-                    st.insert(nums[k]);
-                }
+                
+                st.insert(nums[j]);
+                
                 ans += (st.size()*st.size());
             }
         }
