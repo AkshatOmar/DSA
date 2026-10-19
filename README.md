@@ -315,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/AkshatOmar/DSA/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/AkshatOmar/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/AkshatOmar/DSA/tree/master/0139-word-break) |
+| [0151-reverse-words-in-a-string](https://github.com/AkshatOmar/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0187-repeated-dna-sequences](https://github.com/AkshatOmar/DSA/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/AkshatOmar/DSA/tree/master/0242-valid-anagram) |
@@ -677,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/AkshatOmar/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/AkshatOmar/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/AkshatOmar/DSA/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/AkshatOmar/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0234-palindrome-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0234-palindrome-linked-list) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AkshatOmar/DSA/tree/master/0345-reverse-vowels-of-a-string) |
