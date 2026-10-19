@@ -11,12 +11,12 @@ public:
                 temp += s[i];
             }
         }
-        reverse(temp.begin(),temp.end());
-        int j = 0;
+
+        int j = temp.size()-1;
         for(int i = 0;i<n;i++) {
             if(isVowel(s[i])) {
                 s[i] = temp[j];
-                j++;
+                j--;
             }
         }
         return s;
