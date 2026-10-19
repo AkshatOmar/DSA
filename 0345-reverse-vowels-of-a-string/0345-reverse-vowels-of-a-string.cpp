@@ -5,19 +5,22 @@ public:
     }
     string reverseVowels(string s) {
         int n = s.size();
-        string temp = "";
-        for(int i = 0;i<n;i++) {
-            if(isVowel(s[i])) {
-                temp += s[i];
+        int i = 0;
+        int j = n-1;
+        while(i<j) {
+            
+            while( i<j && !isVowel(s[i])) {
+                i++;
             }
-        }
-
-        int j = temp.size()-1;
-        for(int i = 0;i<n;i++) {
-            if(isVowel(s[i])) {
-                s[i] = temp[j];
+            while(i<j && !isVowel(s[j])) {
                 j--;
             }
+            if(isVowel(s[i]) && isVowel(s[j])) {
+                swap(s[i],s[j]);
+                i++;
+                j--;
+            }
+            
         }
         return s;
     }
