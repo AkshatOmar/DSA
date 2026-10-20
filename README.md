@@ -325,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AkshatOmar/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
+| [0392-is-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/AkshatOmar/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshatOmar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/AkshatOmar/DSA/tree/master/0443-string-compression) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/AkshatOmar/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
 | [0337-house-robber-iii](https://github.com/AkshatOmar/DSA/tree/master/0337-house-robber-iii) |
+| [0392-is-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0392-is-subsequence) |
 | [0403-frog-jump](https://github.com/AkshatOmar/DSA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/AkshatOmar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/AkshatOmar/DSA/tree/master/0435-non-overlapping-intervals) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/AkshatOmar/DSA/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AkshatOmar/DSA/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/AkshatOmar/DSA/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
