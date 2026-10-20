@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/AkshatOmar/DSA/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/AkshatOmar/DSA/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/AkshatOmar/DSA/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/AkshatOmar/DSA/tree/master/0283-move-zeroes) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/AkshatOmar/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/AkshatOmar/DSA/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0334-increasing-triplet-subsequence) |
@@ -683,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/AkshatOmar/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/AkshatOmar/DSA/tree/master/0165-compare-version-numbers) |
 | [0234-palindrome-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/AkshatOmar/DSA/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AkshatOmar/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0443-string-compression](https://github.com/AkshatOmar/DSA/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/AkshatOmar/DSA/tree/master/0455-assign-cookies) |
