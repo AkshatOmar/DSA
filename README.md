@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-cherry-pickup-ii](https://github.com/AkshatOmar/DSA/tree/master/1559-cherry-pickup-ii) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AkshatOmar/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/AkshatOmar/DSA/tree/master/1631-path-with-minimum-effort) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/AkshatOmar/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/AkshatOmar/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-find-the-highest-altitude](https://github.com/AkshatOmar/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/AkshatOmar/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/AkshatOmar/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AkshatOmar/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1386-cinema-seat-allocation](https://github.com/AkshatOmar/DSA/tree/master/1386-cinema-seat-allocation) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/AkshatOmar/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/AkshatOmar/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/AkshatOmar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/AkshatOmar/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -694,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/AkshatOmar/DSA/tree/master/0611-valid-triangle-number) |
 | [0876-middle-of-the-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/AkshatOmar/DSA/tree/master/0881-boats-to-save-people) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/AkshatOmar/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/AkshatOmar/DSA/tree/master/1768-merge-strings-alternately) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/AkshatOmar/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/AkshatOmar/DSA/tree/master/1861-rotating-the-box) |
@@ -793,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/AkshatOmar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1331-rank-transform-of-an-array](https://github.com/AkshatOmar/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/AkshatOmar/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/AkshatOmar/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AkshatOmar/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/AkshatOmar/DSA/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AkshatOmar/DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
