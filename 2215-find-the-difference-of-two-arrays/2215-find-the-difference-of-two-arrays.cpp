@@ -4,11 +4,10 @@ public:
         vector<vector<int>>ans(2);
         unordered_set<int>st1;
         unordered_set<int>st2;
-        for(int it : nums1) {
+        for(int &it : nums1) {
             st1.insert(it);
         }
-        
-        for(int it : nums2) {
+        for(int &it : nums2) {
             st2.insert(it);
         }
         for(int it : st1) {
