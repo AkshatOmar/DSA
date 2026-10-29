@@ -1157,6 +1157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AkshatOmar/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AkshatOmar/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/AkshatOmar/DSA/tree/master/0535-encode-and-decode-tinyurl) |
+| [0933-number-of-recent-calls](https://github.com/AkshatOmar/DSA/tree/master/0933-number-of-recent-calls) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1253,6 +1254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/AkshatOmar/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AkshatOmar/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/AkshatOmar/DSA/tree/master/0239-sliding-window-maximum) |
+| [0933-number-of-recent-calls](https://github.com/AkshatOmar/DSA/tree/master/0933-number-of-recent-calls) |
 ## Merge Sort
 |  |
 | ------- |
@@ -1330,4 +1332,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0334-increasing-triplet-subsequence) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/AkshatOmar/DSA/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
