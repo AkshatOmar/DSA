@@ -2,7 +2,7 @@ class Solution {
 public:
     //dir = 0 => coming from left
     //dir = 1 => coming from up
-    int helper(vector<vector<int>>&grid, int n, int m, int i, int j, int dir,vector<vector<vector<long long>>>&dp) {
+    int helper(vector<vector<int>>&grid, int n, int m, int i, int j, int dir,vector<vector<vector<int>>>&dp) {
         if(i == n-1 && j == m-1) return 1;
         if(i<0 || j<0 || i>=n || j>=m) return 0;
         if(dp[i][j][dir] != -1) return dp[i][j][dir];
@@ -26,7 +26,7 @@ public:
     int uniquePaths(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        vector<vector<vector<long long>>>dp(n,vector<vector<long long>>(m,vector<long long>(2,-1)));
+        vector<vector<vector<int>>>dp(n,vector<vector<int>>(m,vector<int>(2,-1)));
         return helper(grid,n,m,0,0,0,dp);
     }
 };
