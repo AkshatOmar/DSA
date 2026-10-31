@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/AkshatOmar/DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3637-trionic-array-i](https://github.com/AkshatOmar/DSA/tree/master/3637-trionic-array-i) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/AkshatOmar/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3665-twisted-mirror-path-count](https://github.com/AkshatOmar/DSA/tree/master/3665-twisted-mirror-path-count) |
 | [3689-maximum-total-subarray-value-i](https://github.com/AkshatOmar/DSA/tree/master/3689-maximum-total-subarray-value-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/AkshatOmar/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/AkshatOmar/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/AkshatOmar/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AkshatOmar/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/AkshatOmar/DSA/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3665-twisted-mirror-path-count](https://github.com/AkshatOmar/DSA/tree/master/3665-twisted-mirror-path-count) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/AkshatOmar/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 ## String
 |  |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/AkshatOmar/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/AkshatOmar/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/AkshatOmar/DSA/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3665-twisted-mirror-path-count](https://github.com/AkshatOmar/DSA/tree/master/3665-twisted-mirror-path-count) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/AkshatOmar/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Backtracking
 |  |
