@@ -341,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/AkshatOmar/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/AkshatOmar/DSA/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/AkshatOmar/DSA/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/AkshatOmar/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/AkshatOmar/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkshatOmar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/AkshatOmar/DSA/tree/master/0443-string-compression) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/AkshatOmar/DSA/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/AkshatOmar/DSA/tree/master/0394-decode-string) |
 | [2050-count-good-numbers](https://github.com/AkshatOmar/DSA/tree/master/2050-count-good-numbers) |
 ## Dynamic Programming
 |  |
@@ -631,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/AkshatOmar/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AkshatOmar/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/AkshatOmar/DSA/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/AkshatOmar/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/AkshatOmar/DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/AkshatOmar/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/AkshatOmar/DSA/tree/master/0503-next-greater-element-ii) |
