@@ -1364,4 +1364,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/AkshatOmar/DSA/tree/master/0933-number-of-recent-calls) |
 | [1352-product-of-the-last-k-numbers](https://github.com/AkshatOmar/DSA/tree/master/1352-product-of-the-last-k-numbers) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/AkshatOmar/DSA/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
