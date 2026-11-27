@@ -1,43 +1,37 @@
 class Solution {
 public:
-    
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        //Build the graph first
-        vector<vector<pair<int,int>>>graph(n);
-        for(auto it : flights) {
-            int u = it[0];
-            int v = it[1];
-            int wt = it[2];
-            graph[u].push_back({v,wt});
+        vector<vector<pair<int,int>>>adj(n);
+        for(auto &it : flights) {
+            adj[it[0]].push_back({it[1],it[2]});
         }
-        queue<pair<int,int>>q;
-        q.push({0,src});
-        vector<int>dist(n,INT_MAX);
-        int stops = 0;
-        dist[src] = 0;
-        while(!q.empty() && stops<=k) {
-            
-            int size = q.size();
-            vector<int>temp = dist;
-            while(size--) {
-                int cost = q.front().first;
-                int node = q.front().second;
-                int size = q.size();
-                q.pop();
-                for(auto it : graph[node]) {
-                    int adj = it.first;
-                    int wt = it.second;
-
-                    if(wt+cost<temp[adj]) {
-                        temp[adj] = wt+cost;
-                        q.push({cost+wt,adj});
-                    }
-
+        vector<vector<int>>dist(n,vector<int>(k+2,INT_MAX));
+        dist[src][0] = 0;
+        priority_queue<vector<int>,
+                    vector<vector<int>>,
+                    greater<vector<int>>>pq;
+        pq.push({0,0,src});
+        while(!pq.empty()) {
+            int stops = pq.top()[0];
+            int d = pq.top()[1];
+            int node = pq.top()[2];
+            pq.pop();
+            if(stops>k)continue;
+            for(auto it : adj[node]) {
+                int adjNode = it.first;
+                int wt = it.second;
+                if(d + wt < dist[adjNode][stops+1]) {
+                    dist[adjNode][stops+1] = d+wt;
+                    pq.push({stops + 1,dist[adjNode][stops+1],adjNode});
                 }
             }
-            dist=temp;
-            stops++;
-        } 
-        return dist[dst] == INT_MAX ? -1 : dist[dst];
+
+        }
+         
+        int ans = INT_MAX;
+        for(int i = 1;i<=k+1;i++) {
+            ans = min(ans,dist[dst][i]);
+        }
+        return ans == INT_MAX ? -1 : ans;
     }
 };
